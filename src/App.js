@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -25,7 +24,7 @@ class App extends Component {
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+        : `res_primaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -82,8 +81,15 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
+        <Header
+          sharedData={this.state.sharedData.basic_info}
+          className="mb-5"
+        />
+
+        <div
+          className="col-md-12 mx-auto text-center language"
+          // style={{ display: "none" }}
+        >
           <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -95,7 +101,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-flag-for-flag-india"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -110,11 +116,11 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
-              data-inline="false"
+              // className="iconify language-icon"
+              // data-icon="twemoji-flag-for-flag-poland"
+              // data-inline="false"
               id={window.$secondaryLanguageIconId}
-            ></span>
+            >  </span>
           </div>
         </div>
         <About

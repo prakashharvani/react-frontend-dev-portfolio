@@ -2,17 +2,19 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import NodeIcon from "@iconify/icons-logos/nodejs";
+// import {Solidity} from "/images/projects/solidity.svg";
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic =  this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var about1 = this.props.resumeBasicInfo.description1;
     }
 
     return (
@@ -39,14 +41,18 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={NodeIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                   {/* <Icon
+                    icon={Solidity}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  /> */}
                 </span>
               </div>
             </div>
 
-            <div className="col-md-8 center">
+            <div className="col-md-8 right">
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
@@ -81,7 +87,27 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <br />
+                    {about1}
+                    <br />
+                    Thank you 💜
                   </div>
+
+                  {/* <div
+                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    style={{
+                      height: "auto",
+                      fontSize: "132%",
+                      lineHeight: "200%",
+                    }}
+                  >
+                    <br />
+                    <span className="wave">{hello} :) </span>
+                    <br />
+                    <br />
+                    {about}
+                  </div> */}
+
                 </div>
               </div>
             </div>

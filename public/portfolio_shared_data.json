@@ -1,37 +1,48 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Prakash Harvani",
+      "titles": [ "Full Stack Developer", "Web3 Developer" , "Blockchain Developer" ],
       "social": [
         {
+          "name": "stack-overflow",
+          "url": "https://stackoverflow.com/users/10561191/prakash-harvani",
+          "class": "fab fa-stack-overflow"
+        },
+        {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/prakashharvani",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/prakash-harvani-737b27186/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "/react-frontend-dev-portfolio/images/projects/My.jpg"
     },
     "skills": {
       "icons": [
+      
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "95"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
+          "name": "Web3 js",
+          "class": "devicon-javascript-plain",
           "level": "95"
         },
         {
           "name": "Angular",
           "class": "devicon-angularjs-plain",
-          "level": "80"
+          "level": "95"
+        },
+        {
+          "name": "Node js",
+          "class": "devicon-nodejs-plain",
+          "level": "95"
         },
         {
           "name": "TypeScript",
@@ -41,27 +52,17 @@
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "95"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Mongo DB",
+          "class": "devicon-mongodb-plain",
+          "level": "95"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Solidity",
+          "class": "devicon-solidity-plain",
           "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
         }
       ]
     }
