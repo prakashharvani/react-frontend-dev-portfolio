@@ -23,7 +23,11 @@
     },
     "skills": {
       "icons": [
-      
+        {
+          "name": "Next",
+          "class": "devicon-nextjs-plain",
+          "level": "95"
+        },
         {
           "name": "React",
           "class": "devicon-react-original",

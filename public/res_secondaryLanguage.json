@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello",
-    "description": "👋 I'm Prakash Harvani.  I've 3+ years of experience in IT Industry and Working as Full Stack & Web3 js Developer right now. I've 3+ years of experience in  Blockchain Web3 ,Angular ,Node ,Mongodb, which was my first in field languages then I shifted on React and it have been  more the 1.5+ years Working as MERN Stack Web3 js Developer.",
+    "description": "👋 I'm Prakash Harvani.  I've 4+ years of experience in IT Industry and Working as Full Stack & Web3 js Developer right now. I've 3+ years of experience in  Blockchain Web3 ,Angular ,Node ,Mongodb, which was my first in field languages then I shifted on React and it have been  more the 2.5+ years Working as MERN Stack Web3 js Developer.",
     "description1": "I've also basic experience in Smart contract writing With Solidity.I'have been a responsible for system architecture design , Whole site workflow stratagy design, make product From Scrach and Smart Contract Integrator at Backend & frontend.",
 
     "section_name": {
@@ -156,6 +156,10 @@
           "name": "Web3 js"
         },
         {
+          "class": "devicon-nextjs-plain",
+          "name": "Nextjs"
+        },
+        {
           "class": "devicon-react-plain",
           "name": "React"
         },
@@ -208,6 +212,42 @@
           "name": "JavaScript"
         }
       ]
+    },
+    {
+      "title": "Crypto Wallets & P2P wallets",
+      "startDate": "2020-22",
+      "description": "P2P crypto exchange is a platform where a buyer directly pays to the seller. Sometimes it’s also called decentralized exchange as the platform only serves as a matching and routing layer for trade orders; it does not hold customers’ funds, and no third party controls it. In other words “Once you are in a P2P exchange platform you are definitely using the P2P wallet.",
+      "images": [
+        "/images/projects/exchanges.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Web3 js"
+        },
+         
+        {
+          "class": "devicon-nextjs-plain",
+          "name": "Nextjs"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
     }
 
   ],
@@ -226,6 +266,7 @@
     ],
     "technologies": [
       "Trading charts",
+      "NextJS",
       "React",
       "Angular 7/8",
       "NodeJS",

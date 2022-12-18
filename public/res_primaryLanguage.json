@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello",
-      "description": "👋 I'm Prakash Harvani.  I've 4+ years of experience in IT Industry and Working as Full Stack & Web3 js Developer right now. I've 3+ years of experience in  Blockchain Web3 ,Angular ,Node ,Mongodb, which was my first in field languages then I shifted on React and it have been  more the 1.5+ years Working as MERN Stack Web3 js Developer.",
+      "description": "👋 I'm Prakash Harvani.  I've 4+ years of experience in IT Industry and Working as Full Stack & Web3 js Developer right now. I've 4+ years of experience in  Blockchain Web3 ,Angular ,Node ,Mongodb, which was my first in field languages then I shifted on React and it have been  more the 2.5 years Working as MERN Stack Web3 js Developer.",
       "description1": "I've also basic experience in Smart contract writing With Solidity.I'have been a responsible for system architecture design , Whole site workflow stratagy design, make product From Scrach and Smart Contract Integrator at Backend & frontend.",
 
       "section_name": {
@@ -155,6 +155,11 @@
             "class": "devicon-javascript-plain",
             "name": "Web3 js"
           },
+           
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Nextjs"
+          },
           {
             "class": "devicon-react-plain",
             "name": "React"
@@ -185,6 +190,12 @@
           {
             "class": "devicon-javascript-plain",
             "name": "Web3 js"
+          },
+
+          
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Nextjs"
           },
           {
             "class": "devicon-react-plain",
@@ -224,6 +235,11 @@
             "class": "devicon-javascript-plain",
             "name": "Web3 js"
           },
+           
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Nextjs"
+          },
           {
             "class": "devicon-react-plain",
             "name": "React"
@@ -260,6 +276,7 @@
       ],
       "technologies": [
         "Trading charts",
+        "NextJS",
         "React",
         "Angular 7/8",
         "NodeJS",
