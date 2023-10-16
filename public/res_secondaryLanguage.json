@@ -1,9 +1,8 @@
 {
   "basic_info": {
     "description_header": "Hello",
-    "description": "👋 I'm Prakash Harvani.  I've 4+ years of experience in IT Industry and Working as Full Stack & Web3 js Developer right now. I've 3+ years of experience in  Blockchain Web3 ,Angular ,Node ,Mongodb, which was my first in field languages then I shifted on React and it have been  more the 2.5+ years Working as MERN Stack Web3 js Developer.",
-    "description1": "I've also basic experience in Smart contract writing With Solidity.I'have been a responsible for system architecture design , Whole site workflow stratagy design, make product From Scrach and Smart Contract Integrator at Backend & frontend.",
-
+    "description": "👋 I'm Prakash Harvani.  I've 5+ years of experience in IT Industry and Working as Senior Full Stack & Web3 js Developer right now. I've hands on experience on Nest js, Next js, Node js , React js , Angular , Web3 js , PostgreSQL , Mongodb ,Docker , Sequelize , AWS Services like (Lambda , S3 , Events, Mediaconvert , Cloudwatch ,Scheduler & much more).",
+    "description1": "I've been a responsible for system architecture design, Whole site workflow stratagy design, make product From Scrach. I've worked on diffrent kinds of domains & projects like  Ecommerce , News , Property rent/sell ,Social media , Education , Food delivery , Decentralized wallets, P2P tradingbots ,NFT merketplaces , exchanges & much more.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -12,19 +11,19 @@
     }
   },
   "projects": [
-    
+
     {
-      "title": "Web 2.0 Apps",
-      "startDate": "2018-19",
-      "description": "An initial coin offering (ICO) or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding, although a private ICO which does not seek public investment is also possible. In an ICO, a quantity of cryptocurrency is sold in the form of 'tokens' ('coins') to speculators or investors, in exchange for legal tender or other (generally established and more stable) cryptocurrencies such as Bitcoin or Ether. The tokens are promoted as future functional units of currency if or when the ICO's funding goal is met and the project successfully launches.",
-      "images": [
-        "/images/projects/Web2.jpg"
+      "title": "Property Sell / Rent",
+      "startDate": "2019-2021",
+      "description": "The Property website & app is A bird’s eye view of real estate opportunities, is an application that enables property trading by acting as a platform that connects owners, agents, buyers, sellers with the added element of a 360° view of the marketplace , & its not only matches but surpasses every ability that you get by visiting the property. These filters give you the ability to find properties to match your needs ranging from pricing, size, location, area all the way through the neighborhood, school zones, landmarks and much more.",
+       "images": [
+         "/images/projects/property.jpg"
       ],
       "url": "",
       "technologies": [
         {
-          "class": "devicon-javascript-plain",
-          "name": "Web3 js"
+          "name": "Node js",
+          "class": "devicon-nodejs-plain"
         },
         {
           "class": "devicon-react-plain",
@@ -41,9 +40,177 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "name": "Mongo DB",
+          "class": "devicon-mongodb-plain"
+          
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
         }
       ]
     },
+
+    {
+      "title": "News app",
+      "startDate": "2020-2021",
+      "description": "Had worked on a News app application & website which is made for provides News informations from diffrent diffrent providers in 1 single app through news feeds where user can read that news & provides like , follow & set the specification from which provider they want to get the news notifications / News for reading purpose & much more.",
+       "images": [
+         "/images/projects/news.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "name": "Node js",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "Mongo DB",
+          "class": "devicon-mongodb-plain"
+          
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
+    },
+
+    {
+      "title": "Food delivery",
+      "startDate": "2021-2022",
+      "description": "Had worked on a food delivery application & website which is made for provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants , there was some more functionalities was there like, follow, comments, share food item etc.. ",
+       "images": [
+         "/images/projects/food.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "Nest js"
+        },
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "Mongo DB",
+          "class": "devicon-mongodb-plain"
+          
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
+    },
+
+    {
+      "title": "Social media",
+      "startDate": "2022-2023",
+      "description": "Had worked on social media application & website is  photo and video sharing social networking service, The app allows users to upload media that can be edited with filters, be organized by hashtags, and be associated with a location via geographical tagging.Posts can be shared publicly or with preapproved followers. Users can browse other users' content by tags and locations, view trending content, like photos, and follow other users to add their content to a personal & much more.",
+      "images": [
+        "/images/projects/social.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "Nest js"
+        },
+        {
+          "name": "Node js",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Next",
+          "class": "devicon-nextjs-plain"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain"
+          
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "startDate": "2021",
+      "description": "Had worked on Web2 initiative like education (e-learning ,e-coaching) where students, parents, Faculties / teachers will come on same page and educate / teach to student through e-learning , Parents & teachers also can review the learning progress of student through the app within 1 click just & much more features like Weekly test , Videos for each chapter for e learning , subscription for them as well.",
+      "images": [
+        "/images/projects/education.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "name": "Node js",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "Mongo DB",
+          "class": "devicon-mongodb-plain"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
+    },
+
     {
       "title": "Yield Farming",
       "startDate": "2020-22",
@@ -64,6 +231,10 @@
         {
           "class": "devicon-angularjs-plain",
           "name": "Angular"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
         },
         {
           "class": "devicon-typescript-plain",
@@ -103,6 +274,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
         }
       ]
     },
@@ -139,6 +314,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
         }
       ]
     },
@@ -174,6 +353,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
         }
       ]
     },
@@ -191,6 +374,10 @@
           "name": "Web3 js"
         },
         {
+          "class": "devicon-nextjs-plain",
+          "name": "Nextjs"
+        },
+        {
           "class": "devicon-react-plain",
           "name": "React"
         },
@@ -206,6 +393,10 @@
         {
           "class": "devicon-typescript-plain",
           "name": "TypeScript"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
         },
         {
           "class": "devicon-javascript-plain",
@@ -226,7 +417,10 @@
           "class": "devicon-javascript-plain",
           "name": "Web3 js"
         },
-         
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        },
         {
           "class": "devicon-nextjs-plain",
           "name": "Nextjs"
@@ -249,31 +443,48 @@
         }
       ]
     }
-
   ],
-  "experience": [ {
-    "company": "Codezeros",
-    "title": "Full Stack | Web3 | Blockchain",
-    "years": "04.2020 - Present",
-    "mainTech": [
-      "Decentralised Finance(DEFI)",
-      "Web3 js",
-      "Blockchain",
-      "Ethereum",
-      "Polygon",
-      "Binance",
-      "RSK"
-    ],
-    "technologies": [
-      "Trading charts",
-      "NextJS",
-      "React",
-      "Angular 7/8",
-      "NodeJS",
-      "REST API",
-      "MongoDB"
-    ]
-  },
+  "experience": [
+    {
+      "company": "Digimeta.dev",
+      "title": "Senior Full Stack | Web3 | Blockchain developer",
+      "years": "08.2023 - Present",
+      "mainTech": [],
+      "technologies": [
+        "AWS (Lambda | Events | Schedule | Mediaconvert | S3  | Amplify)",
+        "NextJS",
+        "Sequelize",
+        "NestJS",
+        "React",
+        "NodeJS",
+        "PostgreSQL",
+        "REST API"
+      ]
+    },
+    {
+      "company": "Codezeros",
+      "title": "Senior Full Stack | Web3 | Blockchain",
+      "years": "04.2020 - 08.2023",
+      "mainTech": [
+        "Web3 js",
+        "Blockchain",
+        "Ethereum",
+        "Binance",
+        "RSK"
+      ],
+      "technologies": [
+        "AWS (Lambda | Events | Schedule | Mediaconvert | S3  | Amplify)",
+        "NextJS",
+        "Sequilize",
+        "Nest js",
+        "React",
+        "Angular 7/8",
+        "NodeJS",
+        "PostgreSQL",
+        "REST API",
+        "MongoDB"
+      ]
+    },
     {
       "company": "Codezeros",
       "title": "Dedicated Developer(UAE)",
@@ -281,7 +492,8 @@
       "mainTech": [
         "NodeJS",
         "Angular 7/8",
-        "MongoDB"
+        "MongoDB",
+        "AWS (S3, EC2)"
       ],
       "technologies": [
         "REST API",

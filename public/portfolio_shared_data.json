@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Prakash Harvani",
-      "titles": [ "Full Stack Developer", "Web3 Developer" , "Blockchain Developer" ],
+      "titles": [ "Senior Full Stack Developer", "Web3 Developer" , "Blockchain Developer" ],
       "social": [
         {
           "name": "stack-overflow",
@@ -34,6 +34,16 @@
           "level": "95"
         },
         {
+          "class":"devicon-amazonwebservices-original",
+          "name":"AWS",
+          "level": "75"
+        },
+        {
+          "class":"devicon-nestjs-plain",
+          "name":"Nest js",
+          "level": "75"
+        },
+        {
           "name": "Web3 js",
           "class": "devicon-javascript-plain",
           "level": "95"
@@ -61,6 +71,16 @@
         {
           "name": "Mongo DB",
           "class": "devicon-mongodb-plain",
+          "level": "95"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
           "level": "95"
         },
         {
