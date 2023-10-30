@@ -3,12 +3,18 @@ import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import NodeIcon from "@iconify/icons-logos/nodejs";
+import NestIcon from "@iconify/icons-logos/nestjs";
+import NextIcon from "@iconify/icons-logos/nextjs";
+import AWsIcon from "@iconify/icons-logos/aws";
+import PosgreIcon from "@iconify/icons-logos/postgresql";
+import MongoIcon from "@iconify/icons-logos/mongodb";
+
 // import {Solidity} from "/images/projects/solidity.svg";
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic =  this.props.sharedBasicInfo.image;
+      var profilepic = this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -34,20 +40,37 @@ class About extends Component {
                   />
                   <Icon
                     icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={NodeIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
-                   {/* <Icon
-                    icon={Solidity}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  /> */}
+                  <Icon
+                    icon={NestIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={NextIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={AWsIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={PosgreIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+                   <Icon
+                    icon={MongoIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
+                  />
+      
                 </span>
               </div>
             </div>
