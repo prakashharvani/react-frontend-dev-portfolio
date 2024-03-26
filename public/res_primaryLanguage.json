@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello",
-    "description": "👋 I'm Prakash Harvani.  I've 5+ years of experience in IT Industry and Working as Senior Full Stack & Web3 js Developer right now. I've hands on experience on Nest js, Next js, Node js , React js , Angular , Web3 js , PostgreSQL , Mongodb ,Docker , Sequelize , AWS Services like (Lambda , S3 , Events, Mediaconvert , Cloudwatch ,Scheduler & much more).",
+    "description": "👋 I'm Prakash Harvani.  I've 5+ years of experience in IT Industry and Working as Senior Software Engineer / Full Stack Developer right now. I've hands on experience on Nest js, Next js, Node js , React js , Angular , Web3 js , PostgreSQL , Mongodb ,Docker , Sequelize , AWS Services like (Lambda , S3 , Events, Mediaconvert , Cloudwatch ,Scheduler & much more).",
     "description1": "I've been a responsible for system architecture design, Whole site workflow stratagy design, make product From Scrach. I've worked on diffrent kinds of domains & projects like  Ecommerce , News , Property rent/sell ,Social media , Education , Food delivery , Decentralized wallets, P2P tradingbots ,NFT merketplaces , exchanges & much more.",
     "section_name": {
       "about": "About me",
@@ -446,10 +446,10 @@
   ],
   "experience": [
     {
-      "company": "Confidential",
-      "title": "Senior Full Stack | Web3 | Blockchain developer",
+      "company": "Digimeta.dev",
+      "title": "Senior Software Engineer",
       "years": "08.2023 - Present",
-      "mainTech": [],
+      "mainTech": [ "NestJS","PostgreSQL","AWS",  "Stripe"],
       "technologies": [
         "AWS (Lambda | Events | Schedule | Mediaconvert | S3  | Amplify)",
         "NextJS",
@@ -458,7 +458,8 @@
         "React",
         "NodeJS",
         "PostgreSQL",
-        "REST API"
+        "REST API",
+        "Stripe"
       ]
     },
     {
